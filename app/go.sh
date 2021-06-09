@@ -1,6 +1,6 @@
 # shellcheck disable=SC1090,SC2148
 
-_myzs:internal:module:initial "$0"
+myzs:module:new "$0"
 
 # $HOME/go is default go path in macos
 export GOPATH="${__GOPATH:-$HOME/go}"
